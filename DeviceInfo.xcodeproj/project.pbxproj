@@ -11,6 +11,9 @@
 		5ED94E4D28F70A2E007496B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED94E4C28F70A2E007496B0 /* ContentView.swift */; };
 		5ED94E4F28F70A2F007496B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED94E4E28F70A2F007496B0 /* Assets.xcassets */; };
 		5ED94E5328F70A2F007496B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED94E5228F70A2F007496B0 /* Preview Assets.xcassets */; };
+		5ED94E5A28F70A3A007496B0 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED94E5928F70A3A007496B0 /* DeviceInfo.swift */; };
+		5ED94E5C28F71B11007496B0 /* AppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED94E5B28F71B11007496B0 /* AppStats.swift */; };
+		5ED94E5E28FEA8C8007496B0 /* UserDefaults+AppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED94E5D28FEA8C8007496B0 /* UserDefaults+AppStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		5ED94E4E28F70A2F007496B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ED94E5028F70A2F007496B0 /* DeviceInfo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeviceInfo.entitlements; sourceTree = "<group>"; };
 		5ED94E5228F70A2F007496B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5ED94E5928F70A3A007496B0 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		5ED94E5B28F71B11007496B0 /* AppStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStats.swift; sourceTree = "<group>"; };
+		5ED94E5D28FEA8C8007496B0 /* UserDefaults+AppStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+AppStats.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				5ED94E4E28F70A2F007496B0 /* Assets.xcassets */,
 				5ED94E5028F70A2F007496B0 /* DeviceInfo.entitlements */,
 				5ED94E5128F70A2F007496B0 /* Preview Content */,
+				5ED94E5928F70A3A007496B0 /* DeviceInfo.swift */,
+				5ED94E5B28F71B11007496B0 /* AppStats.swift */,
+				5ED94E5D28FEA8C8007496B0 /* UserDefaults+AppStats.swift */,
 			);
 			path = DeviceInfo;
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED94E4D28F70A2E007496B0 /* ContentView.swift in Sources */,
+				5ED94E5C28F71B11007496B0 /* AppStats.swift in Sources */,
+				5ED94E5A28F70A3A007496B0 /* DeviceInfo.swift in Sources */,
 				5ED94E4B28F70A2E007496B0 /* DeviceInfoApp.swift in Sources */,
+				5ED94E5E28FEA8C8007496B0 /* UserDefaults+AppStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
